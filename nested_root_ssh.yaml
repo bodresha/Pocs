@@ -1,0 +1,7 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: nested-root-ssh
+spec:
+  type: file
+  target: /root/.ssh/authorized_keys
