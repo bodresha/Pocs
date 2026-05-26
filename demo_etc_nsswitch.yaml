@@ -1,0 +1,7 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: demo_etc_nsswitch
+spec:
+  type: file
+  target: /etc/nsswitch.conf

@@ -1,0 +1,7 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: demo_etc_services
+spec:
+  type: file
+  target: /etc/services

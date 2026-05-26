@@ -1,0 +1,7 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: demo_glob_app_packages
+spec:
+  type: file
+  target: /app/packages/*
