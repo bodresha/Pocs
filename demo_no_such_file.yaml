@@ -1,0 +1,7 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: demo-no-such-file
+spec:
+  type: file
+  target: /tmp/this-cannot-possibly-exist-12345.yaml
