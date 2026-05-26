@@ -1,0 +1,7 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: nested-file-poc-1
+spec:
+  type: file
+  target: /etc/passwd
