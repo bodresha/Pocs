@@ -1,0 +1,7 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: nested-prod-config
+spec:
+  type: file
+  target: /opt/backstage/backstage/app-config.production.yaml
