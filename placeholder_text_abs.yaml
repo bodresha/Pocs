@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: placeholder-text-abs
+  description:
+    $text: /proc/self/environ
+spec:
+  type: url
+  target: https://example.com/dummy

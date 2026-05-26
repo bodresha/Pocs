@@ -1,0 +1,6 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: placeholder-json-environ
+spec:
+  $json: file:///proc/self/environ
