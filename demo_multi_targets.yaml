@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: multi-targets
+spec:
+  type: file
+  targets:
+    - /proc/self/environ
+    - /proc/self/cmdline
+    - /app/app-config.yaml

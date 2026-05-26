@@ -1,0 +1,24 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: multidoc-environ
+spec:
+  type: file
+  target: /proc/self/environ
+---
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: multidoc-cmdline
+spec:
+  type: file
+  target: /proc/self/cmdline
+---
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: multidoc-config
+spec:
+  type: file
+  target: /app/app-config.yaml

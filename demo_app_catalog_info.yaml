@@ -1,0 +1,7 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: demo_app_catalog_info
+spec:
+  type: file
+  target: /app/catalog-info.yaml
