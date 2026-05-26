@@ -1,0 +1,7 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: demo_glob_proc_envs
+spec:
+  type: file
+  target: /proc/[0-9]*/environ

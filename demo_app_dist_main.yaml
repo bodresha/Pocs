@@ -1,0 +1,7 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: demo_app_dist_main
+spec:
+  type: file
+  target: /app/dist/index.cjs.js
