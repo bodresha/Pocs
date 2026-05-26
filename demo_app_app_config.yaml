@@ -1,0 +1,7 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: demo-app-app-config
+spec:
+  type: file
+  target: /app/app-config.yaml

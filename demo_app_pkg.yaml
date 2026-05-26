@@ -1,0 +1,7 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: demo-app-pkg
+spec:
+  type: file
+  target: /app/package.json
